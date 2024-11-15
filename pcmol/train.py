@@ -1,4 +1,4 @@
-from pcmol.runner import Runner
+from pcmol.models.runner import Runner
 from pcmol.config import RunnerConfig
 import wandb
 

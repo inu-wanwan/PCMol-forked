@@ -54,7 +54,7 @@ class TrainerConfig:
 @dataclass
 class DatasetConfig:
     dataset_dir   : str = os.path.join(dirs.DATA_DIR, 'training')
-    dataset_prefix: str = 'aug_10_no_orphans' #'final_augmented'
+    dataset_prefix: str = 'test_dataset' #'final_augmented'
     alphafold_dir : str = os.path.join(dirs.DATA_DIR, 'alphafold')
     max_smiles_len: int = 102
     embedding_size: int = 1536
